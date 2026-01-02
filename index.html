@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niño Joshua Ricohermoso - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>UI/UX Designer & Developer</h1>
+                <p>Creating beautiful and functional digital experiences that users love. Currently seeking internship opportunities.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-placeholder"><img src="images/Profile.png" alt="Your Name"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>Hi! I'm a passionate UI/UX designer and developer with a keen eye for creating beautiful, functional digital experiences. I specialize in user-centered design, front-end development, and creating seamless digital experiences that users love.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-images">
+                    <div class="project-image" onclick="openModal('images/project1-1.png')"><img src="images/project1-1.png" alt="Your Name"></div>
+                    <div class="project-image" onclick="openModal('images/project2-2.png')"><img src="images/project2-2.png" alt="Your Name"></div>
+                    <div class="project-image" onclick="openModal('images/project2-3.png')"><img src="images/project2-3.png" alt="Your Name"></div>
+                    <div class="project-image" onclick="openModal('images/project2-4.png')"><img src="images/project2-4.png" alt="Your Name"></div>
+                </div>
+                <div class="project-content">
+                    <h3>Capstone Project</h3>
+                    <p>Interactive Game-Based System with Motion Tracking</p>
+                    <div class="tags">
+                        <span class="tag">Godot</span>
+                        <span class="tag">GDScript</span>
+                        <span class="tag">Firebase</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-images">
+                    <div class="project-image" onclick="openModal('images/project1-1.jpg')"><img src="images/project1-1.jpg" alt="Your Name"></div>
+                    <div class="project-image" onclick="openModal('images/project1-2.jpg')"><img src="images/project1-2.jpg" alt="Your Name"></div>
+                    <div class="project-image" onclick="openModal('images/project1-3.jpg')"><img src="images/project1-3.jpg" alt="Your Name"></div>
+                    <div class="project-image" onclick="openModal('images/project1-4.jpg')"><img src="images/project1-4.jpg" alt="Your Name"></div>
+                </div>
+                <div class="project-content">
+                    <h3>UI/UX Designs</h3>
+                    <p>Commision-Based Designs</p>
+                    <div class="tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">UI Design</span>
+                        <span class="tag">Prototyping</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2 class="section-title">Certificates</h2>
+        <div class="cert-grid">
+            <div class="cert-card" onclick="openModal('images/cert1.jpg')">
+                <div class="cert-image">
+                    <div class="cert-placeholder"><img src="images/cert1.jpg" alt="Your Name"></div>
+                </div>
+                <h3>Web Development Crash Course</h3>
+                <p>Udemy</p>
+                <p style="font-size: 0.9rem; margin-top: 0.5rem;">Completed: January 2026</p>
+                <span class="view-cert">Click to view certificate</span>
+            </div>
+            
+            <div class="cert-card" onclick="openModal('images/cert2.jpg')">
+                <div class="cert-image">
+                    <div class="cert-placeholder"><img src="images/cert2.jpg" alt="Your Name"></div>
+                </div>
+                <h3>Capstone Expo Recognition</h3>
+                <p>CSTC-School Of Information Technology</p>
+                <p style="font-size: 0.9rem; margin-top: 0.5rem;">Received: November 2025</p>
+                <span class="view-cert">Click to view certificate</span>
+            </div>
+            
+        </div>
+    </section>
+
+<section id="contact" class="contact-section">
+    <h2>Let's Work Together</h2>
+    <p>I'm currently looking for internship opportunities.</p>
+
+    <a href="images/CV_NinoJoshua_RIcohermoso.pdf" class="btn" download>
+        Download CV
+    </a>
+
+    <div class="social-links">
+        <a href="ninojoshuaricohermoso@gmail.com" title="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ricohermoso-ni%C3%B1o-joshua-5b85382a0/" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/ninyojoshua" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.facebook.com/ninyojuswa" target="_blank" title="Facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2025 Niño Joshua. All rights reserved.</p>
+    </footer>
+
+
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
